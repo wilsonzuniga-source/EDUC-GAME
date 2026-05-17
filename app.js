@@ -480,7 +480,7 @@ function nextQ() {
 
 function showResults() {
   const elapsed = Math.round((Date.now() - APP.startTime) / 1000);
-  $('resultMsg').textContent = `¡Felicidades! Aquí tienes tu cédula de autonomía oficial:`;
+  $('resultMsg').textContent = `¡Felicidades! Aquí tienes tu cédula oficial:`;
   
   // Play native applause sound effect
   try {
@@ -495,7 +495,7 @@ function showResults() {
     <div class="animated-id-card">
       <div class="id-header">
         <h3>REPÚBLICA DE AUTONOMÍA</h3>
-        <p>CÉDULA DE IDENTIDAD JUVENIL</p>
+        <p>CÉDULA DE IDENTIDAD</p>
       </div>
       <div class="id-body">
         <div class="id-photo">
